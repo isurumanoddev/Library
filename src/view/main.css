@@ -1,0 +1,69 @@
+.setup-button{
+    -fx-background-color: #145f1a;
+    -fx-text-fill: #fcf5f5;
+}
+.setup-button:hover{
+    -fx-background-color: rgba(160, 118, 27, 0.09);
+    -fx-text-fill: #1c1a1a;
+    -fx-font-size:40px ;
+}
+.a-button{
+    -fx-background-color:  #242121;
+    -fx-text-fill: #cecfd7;
+    -fx-border-color: #cecfd7;
+}
+.a-button:hover{
+    -fx-background-color: #872103;
+    -fx-text-fill: white;
+    -fx-border-color: yellow;
+}
+.logout-button{
+    -fx-background-color:  #242121;
+    -fx-text-fill: #cecfd7;
+    -fx-border-color: #cecfd7;
+}
+.logout-button:hover{
+    -fx-background-color: #de3b3b;
+    -fx-text-fill: white;
+    -fx-border-color: yellow;
+}
+.b-button{
+    -fx-background-color:  #145f1a;
+    -fx-text-fill: #cecfd7;
+    -fx-border-color: #cecfd7;
+}
+.b-button:hover{
+    -fx-background-color: rgba(160, 118, 27, 0.09);
+    -fx-text-fill: white;
+    -fx-border-color: yellow;
+}
+.save-button{
+    -fx-background-color:   #1976D2;
+    -fx-text-fill: #cecfd7;
+    -fx-border-color: #cecfd7;
+}
+.save-button:hover{
+    -fx-background-color: rgba(24, 168, 12, 0.66);
+    -fx-text-fill: white;
+
+}
+.c-button{
+    -fx-background-color:   #1976D2;
+    -fx-text-fill: #cecfd7;
+    -fx-border-color: #cecfd7;
+}
+.c-button:hover{
+    -fx-background-color: rgba(194, 4, 4, 0.66);
+    -fx-text-fill: white;
+
+}
+.MenuBar{
+    -fx-background-color: #685252;
+    -fx-text-fill: #cecfd7;
+
+}
+.TabPane{
+    -fx-background-color: #685252;
+    -fx-text-fill: #cecfd7;
+
+}
