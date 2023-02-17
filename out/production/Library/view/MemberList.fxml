@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="root" prefHeight="661.0" prefWidth="687.0" style="-fx-background-color: #272d49; -fx-border-radius: 10px;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.MemberListController">
+    <children>
+
+        <TableView fx:id="tblMember" layoutX="20.0" layoutY="431.0" prefHeight="661.0" prefWidth="687.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <columns>
+                <TableColumn prefWidth="45.60003471374512" style="-fx-background-color: grey; -fx-text-fill: #eef4e7;" text="ID" />
+                <TableColumn prefWidth="176.79998779296875" style="-fx-background-color: grey; -fx-text-fill: #eef4e7;" text="Name" />
+                <TableColumn prefWidth="159.20001220703125" style="-fx-background-color: grey; -fx-text-fill: #eef4e7;" text="Email" />
+                <TableColumn prefWidth="151.2000732421875" style="-fx-text-fill: #eef4e7; -fx-background-color: grey;" text="Address" />
+                <TableColumn prefWidth="154.39996337890625" style="-fx-background-color: grey; -fx-text-fill: #eef4e7;" text="Mobile" />
+
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>
